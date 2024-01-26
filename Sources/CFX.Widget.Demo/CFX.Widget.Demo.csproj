@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net7.0-windows</TargetFrameworks>
+		<Version>0.3.2</Version>
+		<UseWPF>true</UseWPF>
+		<Description>示例插件</Description>
+		<Title>示例插件</Title>
+		<PackageIcon>PackageIcon.png</PackageIcon>
+		<PackageTags>3231100A-40E8-4F32-B434-A4B780501F82</PackageTags>
+		<Configurations>Debug;Release;Publish</Configurations>
+	</PropertyGroup>
+	<ItemGroup>
+		<Content Include="CFXAppMetadata.xml" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="PackageIcon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

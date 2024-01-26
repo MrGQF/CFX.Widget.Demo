@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFX>
+	<!-- app元数据 -->
+	<App>
+		<Version>1.0.0.0</Version>
+		<Base>
+			<Guid>B5091B31-771D-43EB-9513-21761D6DD328</Guid>
+			<Name>
+				<zh-CN>插件包</zh-CN>
+				<en-US>Widget</en-US>
+			</Name>
+			<Description>
+				<zh-CN>插件包</zh-CN>
+				<en-US>Widget</en-US>
+			</Description>
+		</Base>
+		<!-- widget元数据集 -->
+		<Widgets>
+			<Widget>
+				<Base>
+					<Guid>{AF0C7654-216C-412E-A8D9-5363458BDDE0}</Guid>
+					<Name>
+						<zh-CN>插件功能1</zh-CN>
+					</Name>
+					<Description>
+						<zh-CN>插件功能</zh-CN>
+					</Description>
+				</Base>
+				<LibraryFile>CFX.Widget.Demo.dll</LibraryFile>
+				<RuntimeType>CFX.App.WidgetDemo.Shared.ContentGui</RuntimeType>
+				<GuiFrameworks>wpf</GuiFrameworks>
+			</Widget>
+		</Widgets>
+		<!-- 虚拟访问器 -->
+		<VirtualAccessors>
+			<VirtualAccessor>
+				<Base>
+					<Guid>9B124795-2D2F-4FFC-9274-EFC3F0C82739</Guid>
+					<Name>
+						<zh-CN>虚拟功能</zh-CN>
+					</Name>
+					<Description>
+						<zh-CN>虚拟功能</zh-CN>
+					</Description>
+				</Base>
+				<Target>Product</Target>
+				<Method>OpenWatchListGui</Method>
+				<Parameters>
+					<Parameter>param0</Parameter>
+				</Parameters>
+			</VirtualAccessor>
+		</VirtualAccessors>
+		<!-- 资源包 -->
+		<Resources>
+			<Resource>
+				<Base>
+					<Guid>{7DF12DE0-2935-4223-92A6-3209A28E2D06}</Guid>
+					<Name>
+						<zh-CN>资源包-脚本</zh-CN>
+					</Name>
+					<Description>
+						<zh-CN>资源包-脚本</zh-CN>
+					</Description>
+				</Base>
+				<Usage>python脚本</Usage>
+				<FileSubPath>content/xxx.py</FileSubPath>
+			</Resource>
+		</Resources>
+	</App>
+</CFX>
+
